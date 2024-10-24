@@ -1,0 +1,40 @@
+header {
+  background-color: #ddd;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 10px 0px rgb(0 0 0/50%);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo a {
+  font-size: 22px;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+@media (max-width: 767px) {
+  header .container .logo a {
+    font-size: 18px;
+  }
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 15px 20px;
+}
+@media (max-width: 767px) {
+  header .container nav a {
+    font-size: 16px;
+  }
+}
